@@ -22,6 +22,7 @@ public partial class _1_DataEntry : System.Web.UI.Page
         aStaff.Staff_Surname = txtSurname.Text;
         aStaff.Staff_Email = txtEmail.Text;
         aStaff.Staff_PhoneNumber = txtphoneNumber.Text;
+
         //store the data in the session object
         Session["aStaff"] = aStaff;
         //navigate to the viewer page
